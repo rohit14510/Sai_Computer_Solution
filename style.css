@@ -1,0 +1,191 @@
+body{
+    background-color: #FFFFFF;
+}
+.number{
+    border-style: none;
+    font-weight: 700;
+    font-size: 2.25rem;
+    letter-spacing: 1px;
+    margin: -79px 51px 38px auto;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+}
+.number:hover{
+    color: #000;
+}
+
+.callicon{
+   font-size: 35px;
+   color: #572DB8;
+}
+.hero-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 0 31px;
+}
+.hero-companyname{
+    font-size: 5rem;
+    font-weight: 700;
+    text-transform: none;
+    margin: 15px 31px 0;
+    color: #572DB8;
+
+}
+.hero-para{
+    margin: 15px 31px 0;
+}
+.download-brochure-button {
+    padding: 12px 28px;
+    border-radius: 30px;
+    background: #572DB8;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+   
+}
+.herosecondary-para{
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 31px 31px 0 0;
+    font-family: Montserrat, sans-serif !important;
+
+}
+.service-section{
+    background-color: #572DB8;
+    padding: 20px 40px;
+}
+.services-tittle{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 60px auto 0;
+    color: #fff;
+    font-family: Montserrat, sans-serif !important;
+}
+.service-card{
+    background-color: #fff;
+    text-align:center;
+    border-radius: 30px;
+    padding: 10px;
+    max-width: 100%;
+    height: 250px;
+}
+.img-container img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.img-container{
+    width: 64px;
+    height: 64px;
+    margin: 57px auto 0;
+}
+.service-card-content{
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 30px auto 0;
+    font-family: Montserrat, sans-serif !important;
+}
+.Home-Services-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 40px 749px 0 0;
+    font-family: Montserrat, sans-serif !important;
+}
+.home-service-card{
+    padding: 20px;
+    background-color: #8c6cd8;
+    border-radius: 10px;
+    color: #fff;
+}
+.home-service-card-second{
+    padding: 20px;
+    background-color: #572DB8;
+    border-radius: 10px;
+    color: #fff;
+}
+.call-section{
+    background-color: #572DB8;
+    padding: 60px 40px;
+    text-align: center;
+    color: #fff;
+}
+.callNow{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+   padding: 10px 20px;
+   border-radius: 30px;
+   font-size: 1.125rem;
+}
+.clientsay-title{
+    
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    margin: 61px auto 0;
+}
+.clientsay-card{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.Schedule-section{
+    background-color: #8c6cd8;
+    color: #fff;
+    padding: 50px;
+
+}
+.Schedule-section-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 60px auto 0;
+}
+.contactus{
+    background-color: #572DB8;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+@media (max-width: 768px) {
+    .logo{
+        width: 100%;
+    }
+    .hero-title{
+        font-size: 1.875rem;
+    }
+    .hero-companyname{
+        font-size: 2rem;
+    }
+    .services-tittle{
+        font-size: 2.25rem;
+    }
+    .Home-Services-title{
+        font-size: 2rem;
+    }
+    .clientsay-title{
+        font-size: 2.25rem;
+    }
+    .Schedule-section-title{
+        font-size: 2.25rem;
+    }
+    .number{
+        font-size: 1.3rem;
+    }
+    .callicon{
+        font-size: 1.2rem;
+    }
+    .footernumber{
+        font-size: .8rem;
+    }
+    .callimg{
+        width: 30px;
+    }
+}
